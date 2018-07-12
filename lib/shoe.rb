@@ -4,19 +4,34 @@ class Shoe
   
   def intitialize(brand)
     @brand = brand
- end 
+  end 
 
  def brand
    @brand
-end
+ end
 
-def color=(color)
+ def color=(color)
   @color = color 
   end 
 
-def color
+ def color
   @color
+ end 
+
+ def size=(size)
+  @size = size 
 end 
+
+ def size 
+  @size
+ end   
+  
+end 
+  
+  
+  
+
+
 
 
 end
