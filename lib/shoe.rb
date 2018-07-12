@@ -27,15 +27,15 @@ end
  end   
   
   def material=(material)
-    @material= materrial
+    @material= material
   end 
   
   def material
     @material
   end 
   
-  def condition 
-    @condition
+  def condition = (condition)
+    @condition = condition 
   end
   
   def condition 
@@ -44,23 +44,9 @@ end
   
   def cobble 
     puts "Your shoe is as good as new!"
+    @condition = "new"
 end 
 
 end 
   
   
-  
-  
-
-
-
-
-end
-
-
-
-
-
-
-
-
