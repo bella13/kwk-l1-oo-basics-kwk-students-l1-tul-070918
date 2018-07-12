@@ -23,7 +23,6 @@ class Shoe
 end 
 
  def size 
-  @size
  end   
   
   def material=(material)
@@ -34,7 +33,7 @@ end
     @material
   end 
   
-  def condition = (condition)
+  def condition=(condition)
     @condition = condition 
   end
   
@@ -45,7 +44,7 @@ end
   def cobble 
     puts "Your shoe is as good as new!"
     @condition = "new"
-end 
+ end 
 
 end 
   
