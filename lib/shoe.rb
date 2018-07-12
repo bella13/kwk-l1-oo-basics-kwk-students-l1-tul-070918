@@ -2,7 +2,7 @@
 
 class Shoe
   
-  def intitialize(brand)
+  def initialize(brand)
     @brand = brand
   end 
 
@@ -48,5 +48,3 @@ end
  end 
 
 end 
-  
-  
