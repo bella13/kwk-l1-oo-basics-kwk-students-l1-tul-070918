@@ -26,7 +26,28 @@ end
   @size
  end   
   
+  def material=(material)
+    @material= materrial
+  end 
+  
+  def material
+    @material
+  end 
+  
+  def condition 
+    @condition
+  end
+  
+  def condition 
+    @condition
+  end 
+  
+  def cobble 
+    puts "Your shoe is as good as new!"
 end 
+
+end 
+  
   
   
   
